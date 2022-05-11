@@ -20,3 +20,4 @@ test('render plantLi should return an li with a link', (expect) => {
     expect.equal(actual.outerHTML, expected);
 });
 
+//test passed
