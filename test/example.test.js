@@ -17,6 +17,6 @@ test('render plantLi should return an li with a link', (expect) => {
 
     //Expect
     // Make assertions about what is expected versus the actual result
-    expect.equal(actual, expected);
+    expect.equal(actual.outerHTML, expected);
 });
 
