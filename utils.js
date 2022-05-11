@@ -10,8 +10,7 @@ export function renderPlantLi(plant) {
 export function findById(id, arr) {
     // go through each item in arr
     // if id matches, return item
-    console.log(id);
-    console.log(arr);
+    
     for (let item of arr) {
         if (id === item.id) {
             return item;
@@ -19,7 +18,7 @@ export function findById(id, arr) {
     }
 }
 
-
+//render plant function
 export function renderPlant(plant) {
     const div = document.createElement('div');
     div.classList.add('plant');

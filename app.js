@@ -2,12 +2,12 @@
 
 import { plants } from './plants.js';
 
-import { renderPlantLI } from './utils.js';
+import { renderPlantLi } from './utils.js';
 
 const plantLinks = document.getElementById('plant-links');
 
 for (let plant of plants) {
-    const li = renderPlantLI(plant);
+    const li = renderPlantLi(plant);
     plantLinks.append(li);
 }
 
