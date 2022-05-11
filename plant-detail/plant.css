@@ -19,6 +19,6 @@
     border-radius: 50%;
     border: 5px solid rgb(80, 45, 5);
 }
-.classification {
-    text-align: left;
+label {
+   text-align: left;
 }
