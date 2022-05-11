@@ -1,4 +1,4 @@
-export function renderPlantLI(plant) {
+export function renderPlantLi(plant) {
     const li = document.createElement('li');
     const a = document.createElement('a');
     a.href = `./plant-detail/?id=${plant.id}`;

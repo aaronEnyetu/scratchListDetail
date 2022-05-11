@@ -1,15 +1,15 @@
 // IMPORT MODULES under test here:
 // import { example } from '../example.js';
 
-import { plants } from '../plants';
-import { renderPlantLi } from '../utils';
+import { plants } from '../plants.js';
+import { renderPlantLi } from '../utils.js';
 
 const test = QUnit.test;
 
 test('render plantLi should return an li with a link', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = `<a href="./plant-detail/?id=1">corn</a>`;
+    const expected = `<li><a href="./plant-detail/?id=1">corn</a></li>`;
     
     //Act 
     // Call the function you're testing and set the result to a const
